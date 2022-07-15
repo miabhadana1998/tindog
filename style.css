@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.row {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+/* .title{
+    font-size: 60px;
+    text-align: center;
+    color:slateblue ;
+    font-weight: 700;
+    font-family: sans-serif;
+} */
+
+h3 {
+  font-size: 30px;
+}
+
+.para {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+.cont-pad {
+  padding: 70px 150px;
+  text-align: center;
+}
+
+.header {
+  height: 100vh;
+  overflow: hidden;
+  padding: 30px 150px 70px;
+  color: #fff;
+  background: #ff4c68;
+}
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.header img {
+  transform: rotate(25deg);
+  position: relative;
+  left: 20px;
+  width: 80%;
+}
+
+.header .navbar-brand {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Ubuntu";
+}
+.header .nav-item {
+  margin: 0 10px;
+}
+.header .nav-link {
+  color: #fff;
+}
+
+.features i {
+  color: #ef8172;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+/* cta download */
+
+.cta {
+  color: #fff;
+  background: #ff4c68;
+}
+
+.cta h2 {
+  font-size: 60px;
+}
+
+/* reviews */
+.reviews {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.reviews .carousel-inner img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.reviews h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.reviews .brands {
+  padding: 0 150px 70px;
+}
+.reviews .brands img {
+  width: 100%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+footer span {
+  margin: 0 20px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+
+
+  .header,
+  .cta,
+  .features,
+  .carousel-inner,
+  .pricing,
+  .footer,
+  .row.brands {
+    padding: 30px 10px;
+  }
+
+  .cta-btn {
+    display: block;
+    margin: 0 !important;
+    margin-top: 20px !important;
+  }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+  .navbar-toggler-icon i{
+    color: #fff;
+    
+  }
+
+
+  .header {
+    height: auto;
+  }
+  .header img {
+    margin-top: 20px;
+    transform: rotate(0deg);
+    position: static;
+    width: 70%;
+  }
+
+  .row.brands img {
+    padding: 0 !important;
+    width: 70%;
+    padding: 20px 0 !important;
+  }
+
+
+  .pricing .col-lg-4{
+    margin: 10px 0;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+
+  .cta-btn {
+    display: block;
+    margin: 0 !important;
+    margin-top: 10px !important ;
+  }
+  .header,
+  .cta,
+  .pricing,
+  .carousel-inner,
+  .footer,
+  .features,
+  .reviews .brands {
+    padding: 20px 10px;
+  }
+
+  nav i {
+    color: #fff;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .header {
+    height: auto;
+  }
+  .header img {
+    transform: rotate(0);
+    position: static;
+    margin-top: 30px;
+  }
+
+  .reviews .brands img {
+    width: 70%;
+    padding: 0 !important;
+    padding: 10px 0 !important;
+  }
+
+  .pricing .col-lg-4 {
+    margin-bottom: 20px;
+  }
+}
